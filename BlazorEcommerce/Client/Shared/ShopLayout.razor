@@ -1,0 +1,19 @@
+﻿@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="main">
+        <div class="top-row px-2">
+            <HomeButton />
+            <Search />
+            <CartCounter />
+        </div>
+
+        <div class="nav-menu">
+            <ShopNavMenu />
+        </div>
+
+        <div class="content px-2">
+            @Body
+        </div>
+    </div>
+</div>
